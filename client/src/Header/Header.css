@@ -1,0 +1,72 @@
+.header {
+  width: 98.4%;
+  padding: 10px;
+  background-color: #f6edff;
+  display: flex;
+  border-bottom: 1px solid #ede4fd;
+}
+
+.logo {
+  padding: 10px 10px 10px 40px;
+}
+
+.logo > img {
+  width: 100px;
+  margin: 0px;
+}
+
+.search {
+  width: 350px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  margin: 12px 50px 0px 100px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+input {
+  padding: 10px;
+}
+
+input[type="search"]::placeholder {
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #6750a4;
+}
+
+.add-patient {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #6750a4;
+  color: white;
+  margin: 12px 0px 10px 350px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.add-patient:hover {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.notification {
+  margin: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMTY3Nzg2NjA1OF5BMl5BanBnXkFtZTgwMjY5NTU1MzI@._V1_UY264_CR8,0,178,264_AL_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 4px;
+}

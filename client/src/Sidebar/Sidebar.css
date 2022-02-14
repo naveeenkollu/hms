@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.sidebar {
+  font-family: "Inter", sans-serif;
+  width: 240px;
+  height: 572px;
+  background-color: #f6edff;
+  border-right: 1px solid #ede4fd;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+  float: left;
+}
+
+.menu > span {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.dashboard {
+  color: #21005d;
+}
+
+.patient,
+.doctor,
+.appointments {
+  color: #9a82db;
+}
+
+.menu:nth-child(1):hover {
+  cursor: default;
+}
+
+.dashboard > svg,
+.patient > svg,
+.doctor > svg,
+.appointments > svg {
+  margin: 0px 15px 0px 0px;
+  padding-bottom: 10px;
+}
+
+.arrow-icon {
+  margin-left: 40px;
+}
